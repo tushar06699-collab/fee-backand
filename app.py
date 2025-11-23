@@ -29,6 +29,11 @@ with app.app_context():
 def health():
     return jsonify({"status": "Backend is running"})
 
+@app.route("/")
+def home():
+    return {"status": "Backend Running", "success": True}
+
+
 
 # -------------------------------------------------------
 # ADD STUDENT
