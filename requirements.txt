@@ -4,3 +4,7 @@ flask_sqlalchemy
 python-dotenv
 gunicorn
 openpyxl
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
